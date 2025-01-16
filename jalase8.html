@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jalase8</title>
+    <link rel="stylesheet" href="cssfile/intialize.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="cssfile/jalase8.css">
+</head>
+
+<body>
+    <form action="#">
+        <main>
+            <div id="informations">
+                <div>
+                    <h2>Billing Address</h2>
+                    <i class="fa-solid fa-user"></i>
+                    <label for="fname">Full Name</label>
+                    <input type="text" name="fname" placeholder="John M. Doe">
+                    <i class="fa-solid fa-envelope"></i>
+                    <label for="email">Email</label>
+                    <input type="email" name="email" placeholder="john@example.com">
+                    <i class="fa-regular fa-address-card"></i>
+                    <label for="address">Address</label>
+                    <input type="text" name="address" placeholder="542W. 15th Street">
+                    <i class="fa-solid fa-landmark"></i>
+                    <label for="city">City</label>
+                    <input type="text" name="city" placeholder="New York">
+                    <section>
+                        <label for="state">State</label>
+                        <input type="text" name="state" placeholder="NY">
+                    </section>
+                    <section>
+                        <label for="zip">Zip</label>
+                        <input type="number" name="zip" placeholder="10001">
+                    </section>
+                    <input type="checkbox" name="check">
+                    <label for="check">Shipping address same as billing</label>
+                    <input type="submit" name="Continuecheck" value="Continue to checkout">
+                </div>
+                <div>
+                    <h2>Payment</h2>
+                    <p id="ac">Accepted Cards</p>
+                    <i class="fa-brands fa-cc-visa" id="i1"></i>
+                    <i class="fa-brands fa-cc-amex" id="i2"></i>
+                    <i class="fa-brands fa-cc-mastercard" id="i3"></i>
+                    <i class="fa-brands fa-cc-discover" id="i4"></i>
+                    <br>
+                    <label for="cardname">Name on Card</label>
+                    <input type="text" name="cardname" placeholder="John More Doe">
+                    <label for="cardnumber">Credit Card Number</label>
+                    <input type="number" name="cardnumber" placeholder="1111-2222-3333-4444">
+                    <label for="month">Exp Month</label>
+                    <input type="text" name="month" placeholder="September">
+                    <section>
+                        <label for="year">Exp Year</label>
+                        <input type="number" name="year" placeholder="2018">
+                    </section>
+                    <section>
+                        <label for="cvv">CVV</label>
+                        <input type="number" name="cvv" placeholder="352">
+                    </section>
+                </div>
+            </div>
+
+            <div id="cart">
+                <p>Cart</p>
+                <i class="fa-solid fa-cart-shopping" id="i5"></i>
+                <p class="cart">4</p>
+                <a href="#">Product 1</a>
+                <p class="cart">$15</p>
+                <a href="#">Product 2</a>
+                <p class="cart">$5</p>
+                <a href="#">Product 3</a>
+                <p class="cart">$8</p>
+                <a href="#">Product 4</a>
+                <p class="cart">$2</p>
+                <hr>
+                <p id="total">Total</p>
+                <p id="totalnum">$30</p>
+            </div>
+        </main>
+    </form>
+</body>
+
+</html>
